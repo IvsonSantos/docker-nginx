@@ -5,7 +5,3 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 
 #content
 COPY ./pages /usr/share/nginx/html/
-
-
-# docker build . -t ivs
-# docker run -it --rm -p 8080:80 ivs
