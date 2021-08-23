@@ -5,3 +5,4 @@ COPY ./nginx.conf /etc/nginx/nginx.conf
 
 #content
 COPY ./pages /usr/share/nginx/html/
+
