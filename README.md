@@ -2,6 +2,6 @@
 
 
 
-# docker build . -t ivs
+docker build . -t ivs
 
-# docker run -it --rm -p 8080:80 ivs
+docker run -it --rm -p 8080:80 ivs
